@@ -1,6 +1,6 @@
 # Getting and Cleaning Data -- Course Project -- README
 
-This README explains how the data was cleaned up using the `run_analysis.R` script. The script is "monolithic" in the sense that it downloads the files it needs and uses no external libraries. The only change that needs to be done is to alter the `setwd()`-command on the 4th line of the script to change the working directory to something that exists on the user's computer. After this change, running the script should generate the tidied dataset with the filename `tidyData.txt` into the working directory.
+This README explains how the data was cleaned up using the `run_analysis.R` script. The script is "monolithic" in the sense that it downloads the files it needs and uses no external libraries. The only change that may have to be done is to alter the `setwd()`-command on the 4th line of the script to change the working directory to something that makes sense on the user's computer. After this change, running the script should generate the tidied dataset with the filename `tidyData.txt` into the working directory. On Unix-based systems, the `unzip`-command may possibly unzip the data into a folder that is named differently (iirc, Unix-filesystems tend to steer away from spaces in folder names). In this case, the file paths for the `read`-commands between lines 13 and 26 may have to be changed.
 
 ## Downloading the data
 

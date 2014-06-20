@@ -1,7 +1,7 @@
 rm(list=ls(all=TRUE)) 
 gc()
 
-setwd("~/CourseraDataScience/GettingAndCleaningData/CourseProject")
+setwd("~/GitHub/datasciencecoursera/GettingAndCleaningDataProject")
 
 #comment the following rows if you have already downloaded the files
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
